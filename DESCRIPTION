@@ -1,0 +1,16 @@
+Package: TestPkg
+Title: Fast package for reprex 
+Version: 0.0.1
+Authors@R: person("Marcel", "Ramos", email = "marcel.ramos@roswellpark.org",
+    role = c("aut", "cre"))
+Description: Makes it easier to identify issues with testing environments
+    and packages.
+Depends: R (>= 3.5.0)
+Suggests:
+    knitr,
+    R.rsp
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr, R.rsp
+BugReports: https://github.com/LiNk-NY/TestPkg/issues
