@@ -17,6 +17,22 @@ This quick-start guide shows what is available in the package.
 
 # Main files
 
+## Installation
+
+Old code for testing BiocCheck checks in the vignette:
+
+```{r}
+source("https://bioconductor.org/biocLite.R")
+library(BiocInstaller)
+```
+
+How _not_ to install your package:
+
+```{r}
+biocLite("TestPkg")
+useDevel()
+```
+
 ## DESCRIPTION
 
 Main file for R packages
