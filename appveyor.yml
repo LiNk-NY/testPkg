@@ -29,7 +29,7 @@ matrix:
 
 build_script:
   - echo Current directory=%CD%
-  - travis-tool.sh github_package jimhester/cover r-lib/devtools
+  - travis-tool.sh github_package jimhester/covr r-lib/devtools
   - travis-tool.sh install_bioc GenomeInfoDbData GenomicRanges
     SummarizedExperiment BiocStyle
   - travis-tool.sh install_bioc_deps
