@@ -21,14 +21,14 @@ This quick-start guide shows what is available in the package.
 
 Old code for testing BiocCheck checks in the vignette:
 
-```{r}
+```{r,eval=FALSE}
 source("https://bioconductor.org/biocLite.R")
 library(BiocInstaller)
 ```
 
 How _not_ to install your package:
 
-```{r}
+```{r,eval=FALSE}
 biocLite("TestPkg")
 useDevel()
 ```
@@ -37,7 +37,7 @@ useDevel()
 
 Main file for R packages
 
-```{r eval = FALSE}
+```{r,eval=FALSE}
 devtools::create()
 ```
 
