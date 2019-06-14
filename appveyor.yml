@@ -16,7 +16,7 @@ branches:
 environment:
   global:
     _R_CHECK_FORCE_SUGGESTS_: false
-    BIOC_USE_DEVEL: "FALSE"
+    BIOC_USE_DEVEL: "TRUE"
     GCC_PATH: mingw_64
     R_ARCH: x64
     USE_RTOOLS: true
