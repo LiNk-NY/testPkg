@@ -1,6 +1,6 @@
 Package: TestPkg
 Title: Fast package for reprex 
-Version: 0.0.3
+Version: 1.1.0
 Authors@R: person("Marcel", "Ramos", email = "marcel.ramos@roswellpark.org",
     role = c("aut", "cre"))
 Description: Makes it easier to identify issues with testing environments
