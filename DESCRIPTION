@@ -16,3 +16,4 @@ Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr, R.rsp
 BugReports: https://github.com/LiNk-NY/TestPkg/issues
+RoxygenNote: 7.1.2
