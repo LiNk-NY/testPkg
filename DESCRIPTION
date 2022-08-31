@@ -5,15 +5,12 @@ Authors@R: person("Marcel", "Ramos", email = "marcel.ramos@roswellpark.org",
     role = c("aut", "cre"))
 Description: Makes it easier to identify issues with testing environments
     and packages.
-Depends: R (>= 3.5.0)
+Depends: R (>= 4.2.0)
 Suggests:
-    BiocStyle,
     knitr,
-    R.rsp,
     rmarkdown
 License: Artistic-2.0
 Encoding: UTF-8
-LazyData: true
-VignetteBuilder: knitr, R.rsp
-BugReports: https://github.com/LiNk-NY/TestPkg/issues
-RoxygenNote: 7.1.2
+VignetteBuilder: knitr
+BugReports: https://github.com/LiNk-NY/testPkg/issues
+RoxygenNote: 7.2.1
