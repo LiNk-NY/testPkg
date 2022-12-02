@@ -28,6 +28,11 @@ jobs:
           remotes::install_deps(dependencies = TRUE, repos = BiocManager::repositories())
           BiocManager::install(c("rcmdcheck", "pkgdown"), ask = FALSE, update = TRUE)
         shell: Rscript {0}
+        
+      - name: Get rlang version
+        run: |
+          packageVersion("rlang")
+        shell: Rscript {0}
 
       - name: System dependencies
         run: |
