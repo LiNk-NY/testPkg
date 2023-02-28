@@ -1,4 +1,4 @@
-Package: TestPkg
+Package: testPkg
 Title: Fast package for reprex 
 Version: 1.1.0
 Authors@R: person("Marcel", "Ramos", email = "marcel.ramos@roswellpark.org",
@@ -8,7 +8,8 @@ Description: Makes it easier to identify issues with testing environments
 Depends: R (>= 4.2.0)
 Suggests:
     knitr,
-    rmarkdown
+    rmarkdown,
+    tinytest
 License: Artistic-2.0
 Encoding: UTF-8
 VignetteBuilder: knitr
